@@ -1,0 +1,15 @@
+:root {
+  --bg-element-color: hsl(0, 0%, 100%);
+  --bg-color: hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+  --input-color: hsl(0, 0%, 52%);
+  --box-shadow: 0 0 5px 2px hsl(0, 0%, 92%);
+}
+
+.dark-mode {
+  --bg-element-color: hsl(208, 23%, 22%);
+  --bg-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+  --input-color: hsl(0, 0%, 100%);
+  --box-shadow: 0 0 5px 3px hsl(210, 23%, 16%);
+}

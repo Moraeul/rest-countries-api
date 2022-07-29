@@ -10,17 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <script src="https://kit.fontawesome.com/5400d7fa3b.js" crossorigin="anonymous"></script>
     <script src="../dist/bundle.js"></script>
     <title>Document</title>
   </head>
 
-  <body>
+  <body class="dark-mode">
     <header>
       <div class="header-container">
-        <a href="#" class="logo">Where in the world?</a>
-        <button>
+        <h1 class="logo">Where in the world?</h1>
+        <button class="dark-mode-btn btn">
           <i class="fa-solid fa-moon"></i>
           Dark Mode
         </button>
@@ -28,25 +28,80 @@
     </header>
 
     <main>
-      <form>
-        <div class="search-input-">
-          <label for="searchInput">
+      <form class="search-form">
+        <div class="search-input-wrapper">
+          <label class="search-input-label input-field" for="searchInput">
             <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              class="search-input"
+              id="searchInput"
+              placeholder="Search for a country..."
+            />
           </label>
-          <input type="text" id="searchInput" placeholder="Search for a country..." />
         </div>
 
-        <div class="dropdown">
-          <button>Filter by Region <i class="fa-solid fa-angle-down"></i></button>
-          <ul class="dropdown-menu">
-            <li><a href="">Africa</a></li>
-            <li><a href="">America</a></li>
-            <li><a href="">Asia</a></li>
-            <li><a href="">Europe</a></li>
-            <li><a href="">Oceania</a></li>
-          </ul>
-        </div>
+        <select name="dropdown" class="dropdown-menu input-field" id="dropdownMenu">
+          <option value="" selected>Filter by Region</option>
+          <option value="africa">Africa</option>
+          <option value="america">America</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
       </form>
+
+      <ul class="country-grid-container">
+        <li class="country" tabindex="0">
+          <div class="country-flag"></div>
+          <div class="country-info">
+            <h3 class="country-name">Germany</h3>
+            <p class="country-population"><b>Population: </b>81,770,900</p>
+            <p class="country-region"><b>Region: </b>Europe</p>
+            <p class="country-capital"><b>Capital: </b>Berlin</p>
+          </div>
+        </li>
+
+        <li class="country" tabindex="0">
+          <div class="country-flag"></div>
+          <div class="country-info">
+            <h3 class="country-name">Germany</h3>
+            <p class="country-population"><b>Population: </b>81,770,900</p>
+            <p class="country-region"><b>Region: </b>Europe</p>
+            <p class="country-capital"><b>Capital: </b>Berlin</p>
+          </div>
+        </li>
+
+        <li class="country" tabindex="0">
+          <div class="country-flag"></div>
+          <div class="country-info">
+            <h3 class="country-name">Germany</h3>
+            <p class="country-population"><b>Population: </b>81,770,900</p>
+            <p class="country-region"><b>Region: </b>Europe</p>
+            <p class="country-capital"><b>Capital: </b>Berlin</p>
+          </div>
+        </li>
+
+        <li class="country" tabindex="0">
+          <div class="country-flag"></div>
+          <div class="country-info">
+            <h3 class="country-name">Germany</h3>
+            <p class="country-population"><b>Population: </b>81,770,900</p>
+            <p class="country-region"><b>Region: </b>Europe</p>
+            <p class="country-capital"><b>Capital: </b>Berlin</p>
+          </div>
+        </li>
+
+        <li class="country" tabindex="0">
+          <div class="country-flag"></div>
+          <div class="country-info">
+            <h3 class="country-name">Germany</h3>
+            <p class="country-population"><b>Population: </b>81,770,900</p>
+            <p class="country-region"><b>Region: </b>Europe</p>
+            <p class="country-capital"><b>Capital: </b>Berlin</p>
+          </div>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
