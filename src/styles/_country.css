@@ -1,0 +1,33 @@
+.country-grid-container {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.country {
+  width: 20rem;
+  border-radius: 0.25rem;
+  box-shadow: var(--box-shadow);
+  background-color: var(--bg-element-color);
+}
+
+.country-flag {
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.country-info {
+  padding: 1rem;
+}
+
+.country-name {
+  margin-bottom: 1rem;
+}
+
+.country-info p {
+  line-height: 1.5;
+}
+
+.country-info p > b {
+  font-weight: 600;
+}

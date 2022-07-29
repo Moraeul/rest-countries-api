@@ -1,0 +1,49 @@
+main {
+  padding: 1rem;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+form.search-form {
+  margin: 1rem 0 2rem;
+}
+
+.search-input-wrapper {
+  margin-bottom: 2rem;
+}
+
+.search-input-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-input-label i {
+  padding: 1rem 2rem;
+}
+
+input.search-input {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+input.search-input::placeholder {
+  color: var(--input-color);
+}
+
+.dropdown-menu {
+  /*!!!FIX!!!*/
+  appearance: none;
+  padding: 1rem;
+}
+
+.input-field {
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--text-color);
+  background-color: var(--bg-element-color);
+  box-shadow: var(--box-shadow);
+}
