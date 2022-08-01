@@ -1,12 +1,13 @@
 .country-grid-container {
   display: grid;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: space-around;
+
   gap: 2rem;
 }
 
 .country {
-  width: 20rem;
-  border-radius: 0.25rem;
+  border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   background-color: var(--bg-element-color);
 }
@@ -25,7 +26,7 @@
 }
 
 .country-info p {
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .country-info p > b {

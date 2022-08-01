@@ -6,11 +6,16 @@
   box-sizing: border-box;
 }
 
-form > *,
-button {
+input,
+button,
+select {
   font-family: inherit;
 }
 
 ul {
   list-style-type: none;
+}
+
+*:focus {
+  outline: var(--focus);
 }

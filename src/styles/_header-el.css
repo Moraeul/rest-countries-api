@@ -1,5 +1,5 @@
 header {
-  position: relative;
+  width: 100%;
   background-color: var(--bg-element-color);
   box-shadow: var(--box-shadow);
 }
@@ -14,11 +14,13 @@ header {
 header h1.logo {
   font-size: 1rem;
   font-weight: 800;
+  transition: all 0.1s;
   color: var(--text-color);
 }
 
 .dark-mode-btn {
-  background-color: transparent;
-  color: var(--text-color);
   border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-transparent);
+  color: var(--text-color);
 }

@@ -1,0 +1,24 @@
+@media (min-width: 600px) {
+  main,
+  .header-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  /* * _header-el * */
+  header h1.logo {
+    font-size: 1.5rem;
+  }
+
+  /* * _main-el * */
+  form.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .search-input-label {
+    width: min(25rem, 48vw);
+    margin-bottom: 0;
+  }
+}

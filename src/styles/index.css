@@ -1,8 +1,9 @@
 @import "./reset.css";
 @import "./_variables.css";
-@import "./_header.css";
-@import "./_main.css";
+@import "./_header-el.css";
+@import "./_main-el.css";
 @import "./_country.css";
+@import "./_media-queries.css";
 
 body {
   font-family: "Nunito Sans";

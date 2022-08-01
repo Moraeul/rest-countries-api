@@ -4,6 +4,10 @@
   --text-color: hsl(200, 15%, 8%);
   --input-color: hsl(0, 0%, 52%);
   --box-shadow: 0 0 5px 2px hsl(0, 0%, 92%);
+
+  --focus: 2px solid #e59700;
+  --border-radius: 0.25rem;
+  --bg-transparent: transparent;
 }
 
 .dark-mode {
