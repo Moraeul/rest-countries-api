@@ -11,16 +11,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/index.css" />
-    <script src="https://kit.fontawesome.com/5400d7fa3b.js" crossorigin="anonymous"></script>
-    <script src="../dist/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/5400d7fa3b.js" crossorigin="anonymous" defer></script>
+    <script src="../dist/bundleDev.js" defer></script>
     <title>Document</title>
   </head>
 
-  <body class="dark-mode">
+  <body>
     <header>
       <div class="header-container">
         <h1 class="logo">Where in the world?</h1>
-        <button class="dark-mode-btn btn">
+        <button class="dark-mode-btn btn" id="darkModeButton">
           <i class="fa-solid fa-moon"></i>
           Dark Mode
         </button>
@@ -69,87 +69,38 @@
             <p class="country-capital"><b>Capital: </b>Berlin</p>
           </div>
         </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
-
-        <li class="country" tabindex="0">
-          <div class="country-flag"></div>
-          <div class="country-info">
-            <h3 class="country-name">Germany</h3>
-            <p class="country-population"><b>Population: </b>81,770,900</p>
-            <p class="country-region"><b>Region: </b>Europe</p>
-            <p class="country-capital"><b>Capital: </b>Berlin</p>
-          </div>
-        </li>
       </ul>
+
+      <div class="details hidden">
+        <a href="" class="back-btn input-field"><i class="fa-solid fa-arrow-left-long"></i> Back</a>
+
+        <div class="details-container">
+          <div class="details-flag"></div>
+
+          <div class="details-info-container">
+            <h2 class="details-info-country-name">Belgium</h2>
+            <div class="details-info">
+              <p><b>Native Name: </b>België</p>
+              <p><b>Population: </b>1,417,284,809</p>
+              <p><b>Region: </b>Europe</p>
+              <p><b>Sub Region: </b>Western Europe</p>
+              <p><b>Capital: </b>Brussels</p>
+              <p><b>Top Level Domain: </b>.be</p>
+              <p><b>Currencies: </b>Euro</p>
+              <p><b>Languages: </b>Dutch, French, German</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-countries">
+          <h4>Border Countries:</h4>
+          <div class="border-countries-links">
+            <a href="#" class="border-country-link input-field">France</a>
+            <a href="#" class="border-country-link input-field">Germany</a>
+            <a href="#" class="border-country-link input-field">Netherlands</a>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

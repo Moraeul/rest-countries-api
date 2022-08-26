@@ -3,7 +3,7 @@
   --bg-color: hsl(0, 0%, 98%);
   --text-color: hsl(200, 15%, 8%);
   --input-color: hsl(0, 0%, 52%);
-  --box-shadow: 0 0 5px 2px hsl(0, 0%, 92%);
+  --box-shadow: 0 0 3px 1px hsl(0, 0%, 85%);
 
   --focus: 2px solid #e59700;
   --border-radius: 0.25rem;
@@ -15,5 +15,5 @@
   --bg-color: hsl(207, 26%, 17%);
   --text-color: hsl(0, 0%, 100%);
   --input-color: hsl(0, 0%, 100%);
-  --box-shadow: 0 0 5px 3px hsl(210, 23%, 16%);
+  --box-shadow: 0 0 5px 3px hsl(210, 23%, 15%);
 }

@@ -22,3 +22,23 @@
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 720px) {
+  /* * _details-page * */
+  .details-info {
+    columns: 2;
+  }
+}
+
+@media (min-width: 915px) {
+  /* * _details-page * */
+  .details-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .details-info p:nth-child(5) {
+    margin-bottom: 0 !important;
+  }
+}

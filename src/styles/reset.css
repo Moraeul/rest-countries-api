@@ -16,6 +16,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 *:focus {
   outline: var(--focus);
 }

@@ -1,0 +1,51 @@
+.details-flag {
+  /* FIX !!! */
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+  margin: 3rem 0;
+}
+
+.details-info {
+  line-height: 2;
+}
+
+.details-info p:nth-child(5) {
+  margin-bottom: 2rem;
+}
+
+.details-info > p > b {
+  font-weight: 600;
+}
+
+.details-info-country-name {
+  margin: 1.5rem 0;
+}
+
+.border-countries > h4 {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.border-countries-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.border-country-link {
+  min-width: 7em;
+  text-align: center;
+}
+
+.border-country-link,
+.back-btn {
+  padding: 0.5em 1em;
+}
+
+.border-country-link {
+  font-size: 0.7rem;
+}

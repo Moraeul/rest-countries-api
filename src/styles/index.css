@@ -1,10 +1,16 @@
 @import "./reset.css";
-@import "./_variables.css";
+@import "./variables.css";
 @import "./_header-el.css";
 @import "./_main-el.css";
 @import "./_country.css";
-@import "./_media-queries.css";
+@import "./media-queries.css";
+@import "./_details-page.css";
 
 body {
   font-family: "Nunito Sans";
+  background-color: var(--bg-color);
+}
+
+.hidden {
+  display: none;
 }
